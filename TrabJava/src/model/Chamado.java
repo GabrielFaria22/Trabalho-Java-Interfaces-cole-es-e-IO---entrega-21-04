@@ -1,14 +1,14 @@
 package model;
 
-import java.util.Date;
-import java.util.List;
+import java.util.*;
 
 public class Chamado {
-	public int ChamadoID;
+	
+	public int ChamadoId;
 	public String Descricao;
 	public Date DataAbertura;
 	public double Custo;
+	
 	public List<Lancamento> lstLancamento;
 	
-
 }
